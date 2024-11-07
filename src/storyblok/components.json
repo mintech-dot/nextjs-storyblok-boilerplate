@@ -1,0 +1,40 @@
+{
+    "components": [
+      {
+        "name": "feature",
+        "display_name": "feature",
+        "schema": {
+          "name": {
+            "type": "text"
+          }
+        }
+      },
+      {
+        "name": "grid",
+        "display_name": "grid",
+        "schema": {
+          "columns": {
+            "type": "bloks"
+          }
+        }
+      },
+      {
+        "name": "page",
+        "display_name": "page",
+        "schema": {
+          "body": {
+            "type": "bloks"
+          }
+        }
+      },
+      {
+        "name": "teaser",
+        "display_name": "teaser",
+        "schema": {
+          "headline": {
+            "type": "text"
+          }
+        }
+      }
+    ]
+  }
